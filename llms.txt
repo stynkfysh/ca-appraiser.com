@@ -1,0 +1,53 @@
+# CA-Appraiser.com
+
+> CA-Appraiser.com is the California real estate appraisal practice of Brian Ward, a certified residential appraiser with 22 years of experience and more than 7,000 completed appraisals. The practice specializes in non-lender (non-mortgage) appraisals: date of death and step-up in basis, divorce, bankruptcy, estate and trust, Proposition 19 transfers, tax matters, and pre-purchase/pre-sale valuations, plus qualified expert witness testimony. In-person appraisals are available in San Diego and Riverside Counties; desktop appraisals are available statewide across California.
+
+## Business Information
+
+- Name: CA-Appraiser.com (Brian Ward, Certified Appraiser)
+- Email: brian@brianward.com
+- Website: https://www.ca-appraiser.com
+- Contact: web form at https://www.ca-appraiser.com/contact (no phone — online and email only)
+- Address: 15877 Paseo Del Sur, San Diego, CA 92127
+- Service Area: In-person in San Diego and Riverside Counties; desktop appraisals statewide across California (130+ communities, 16 counties)
+- Price Range: $299 - $725
+- Experience: 22 years, 7,000+ appraisals, established 2004
+
+## Pricing (single-family homes & condos)
+
+- Basic Desktop Appraisal: $299 (restricted-use report, no inspection)
+- Desktop Appraisal: $449 (comprehensive report, no inspection) — most popular
+- Drive-By Appraisal: $575 (desktop plus exterior observation)
+- Standard Appraisal: $625 (full interior & exterior inspection)
+- 2-4 Unit Desktop: $550 | 2-4 Unit Standard: $725
+- Add-ons: Square-footage measurement $35/1,500 sf; Rush +30%; Two-client fee $100
+
+## Appraisal Services
+
+- [Date of Death Appraisal](https://www.ca-appraiser.com/date-of-death-appraisal): Retrospective valuations for IRS step-up in basis, estate tax, and probate
+- [Divorce Appraisal](https://www.ca-appraiser.com/divorce-appraisal): Neutral property valuations for equitable division; two-party option and expert testimony
+- [Bankruptcy Appraisal](https://www.ca-appraiser.com/bankruptcy-appraisal): Court-ready valuations for Chapter 7, 11, and 13 filings
+- [Estate & Trust Appraisal](https://www.ca-appraiser.com/estate-appraisal): Fair market valuations for probate, trusts, and estate planning
+- [Proposition 19 Appraisal](https://www.ca-appraiser.com/prop-19-appraisal): Reassessment-exposure valuations for inherited California property
+- [Tax Appraisal](https://www.ca-appraiser.com/tax-appraisal): Property-tax appeals and IRS-compliant valuations
+- [Pre-Purchase Appraisal](https://www.ca-appraiser.com/pre-purchase-appraisal): Independent value before buying a home
+- [Pre-Sale Appraisal](https://www.ca-appraiser.com/pre-sale-appraisal): Independent value before listing a home
+- [Family Transaction Appraisal](https://www.ca-appraiser.com/family-transaction-appraisal): Arm's-length value for transfers between relatives
+- [Insurance Dispute Appraisal](https://www.ca-appraiser.com/insurance-appraisal): Independent value for insurance claim disputes
+- [Bonds Appraisal](https://www.ca-appraiser.com/bonds-appraisal): Equity valuations for bail and surety bonds
+- [Expert Witness & Litigation](https://www.ca-appraiser.com/expert-witness): Qualified testimony and appraisal review
+- [PMI Removal Appraisal](https://www.ca-appraiser.com/pmi-removal): Value documentation to cancel private mortgage insurance
+
+## Key Pages
+
+- [Home](https://www.ca-appraiser.com/)
+- [Services & Fees](https://www.ca-appraiser.com/services-fees)
+- [Service Area](https://www.ca-appraiser.com/service-area)
+- [Contact / Request an Appraisal](https://www.ca-appraiser.com/contact)
+- [FAQ](https://www.ca-appraiser.com/faq)
+- [Reviews](https://www.ca-appraiser.com/reviews)
+- [Market Reports](https://www.ca-appraiser.com/market-reports)
+
+## Optional
+
+- [Full LLM context](https://www.ca-appraiser.com/llms-full.txt)
