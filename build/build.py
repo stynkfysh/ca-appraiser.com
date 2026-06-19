@@ -10,7 +10,7 @@ import os, html, datetime
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 SITE = "https://www.ca-appraiser.com"
 BRAND = "CA-Appraiser.com"
-EMAIL = "brian@brianward.com"
+EMAIL = "contact@ca-appraiser.com"
 TODAY = datetime.date(2026, 6, 17)
 ISO = TODAY.isoformat()
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-CA-Appraiser.com is the California real estate appraisal practice of Brian Ward, a certified residential real estate appraiser (established 2004) with 22 years of experience and more than 7,000 completed appraisals. The firm focuses exclusively on appraisals NOT related to obtaining a mortgage. Reports are written in plain, logical language so that non-appraisers — families, attorneys, CPAs, trustees, judges, and the IRS — can understand and rely on them. Contact is by web form (https://www.ca-appraiser.com/contact) or email (brian@brianward.com); the practice does not publish a phone number.
+CA-Appraiser.com is the California real estate appraisal practice of Brian Ward, a certified residential real estate appraiser (established 2004) with 22 years of experience and more than 7,000 completed appraisals. The firm focuses exclusively on appraisals NOT related to obtaining a mortgage. Reports are written in plain, logical language so that non-appraisers — families, attorneys, CPAs, trustees, judges, and the IRS — can understand and rely on them. Contact is by web form (https://www.ca-appraiser.com/contact) or email (contact@ca-appraiser.com); the practice does not publish a phone number.
 
 ## Specialties
 
@@ -175,6 +175,6 @@ In-person appraisals: San Diego County and Riverside County (full interior/exter
 ## Contact
 
 - Web form: https://www.ca-appraiser.com/contact
-- Email: brian@brianward.com
+- Email: contact@ca-appraiser.com
 - Address: 15877 Paseo Del Sur, San Diego, CA 92127
 - No phone number; inquiries are handled online and by email.

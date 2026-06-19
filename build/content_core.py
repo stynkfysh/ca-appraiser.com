@@ -456,7 +456,7 @@ def build(g):
             <h3>Limitation of liability</h3>
             <p>This website is provided "as is" without warranties of any kind. We are not liable for any loss arising from use of, or reliance on, information presented here. Appraisal reports are governed by the terms of their individual engagement letters.</p>
             <h3>Contact</h3>
-            <p>Questions about these terms? Email <a href="mailto:brian@brianward.com">brian@brianward.com</a>.</p>
+            <p>Questions about these terms? Email <a href="mailto:contact@ca-appraiser.com">contact@ca-appraiser.com</a>.</p>
             </div>"""
     write("/terms-of-use", page("/terms-of-use", "Terms of Use | CA-Appraiser.com",
         "Terms of use for CA-Appraiser.com.", "terms of use", terms_body))
@@ -472,7 +472,7 @@ def build(g):
             <h3>Cookies &amp; analytics</h3>
             <p>This site uses minimal cookies necessary for basic functionality. We do not use your data for advertising.</p>
             <h3>Your choices</h3>
-            <p>You may request that we delete the information you submitted at any time by emailing <a href="mailto:brian@brianward.com">brian@brianward.com</a>.</p>
+            <p>You may request that we delete the information you submitted at any time by emailing <a href="mailto:contact@ca-appraiser.com">contact@ca-appraiser.com</a>.</p>
             </div>"""
     write("/privacy-policy", page("/privacy-policy", "Privacy Policy | CA-Appraiser.com",
         "Privacy policy for CA-Appraiser.com.", "privacy policy", privacy_body))
