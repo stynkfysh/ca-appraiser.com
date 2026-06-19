@@ -53,6 +53,7 @@ FOOTER = f"""    <footer class="footer">
                 <h4>CA-Appraiser.com</h4>
                 <p>Certified Residential Real Estate Appraiser</p>
                 <p>Brian Ward, Certified Appraiser</p>
+                <p>A branded site of <a href="https://www.brianward.com">Brian Ward Appraisal</a> — our primary site.</p>
                 <p>15877 Paseo Del Sur<br>San Diego, CA 92127</p>
                 <p>Email: <a href="mailto:{EMAIL}">{EMAIL}</a></p>
                 <p><a href="/contact">Request an appraisal online &rarr;</a></p>
@@ -81,7 +82,7 @@ FOOTER = f"""    <footer class="footer">
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 CA-Appraiser.com. All rights reserved. Certified Residential Real Estate Appraiser serving California.</p>
+            <p>&copy; 2026 CA-Appraiser.com, a Brian Ward Appraisal site. All rights reserved. Certified Residential Real Estate Appraiser serving California. Primary site: <a href="https://www.brianward.com">brianward.com</a>.</p>
         </div>
     </footer>"""
 
@@ -203,6 +204,12 @@ def local_business_schema(extra_desc, area_served=None):
         },
         "founder": {"@type": "Person", "name": "Brian Ward"},
         "foundingDate": "2004",
+        "parentOrganization": {
+            "@type": "Organization",
+            "name": "Brian Ward Appraisal",
+            "url": "https://www.brianward.com",
+        },
+        "sameAs": ["https://www.brianward.com"],
         "contactPoint": {
             "@type": "ContactPoint",
             "contactType": "customer service",

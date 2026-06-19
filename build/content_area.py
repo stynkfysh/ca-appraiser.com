@@ -223,6 +223,8 @@ def build(g):
                               "name": "Certified Residential Real Estate Appraiser",
                               "credentialCategory": "Professional License"},
             "founder": {"@type": "Person", "name": "Brian Ward"}, "foundingDate": "2004",
+            "parentOrganization": {"@type": "Organization", "name": "Brian Ward Appraisal", "url": "https://www.brianward.com"},
+            "sameAs": ["https://www.brianward.com"],
         }, indent=4)
         bc = json.dumps({
             "@context": "https://schema.org", "@type": "BreadcrumbList",

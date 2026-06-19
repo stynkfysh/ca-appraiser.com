@@ -42,6 +42,8 @@ def build(g):
         "image": SITE + "/images/og-default.jpg", "email": EMAIL,
         "founder": {"@type": "Person", "name": "Brian Ward"}, "foundingDate": "2004",
         "areaServed": {"@type": "State", "name": "California"},
+        "parentOrganization": {"@type": "Organization", "name": "Brian Ward Appraisal", "url": "https://www.brianward.com"},
+        "sameAs": ["https://www.brianward.com"],
     }, indent=4) + '\n</script>'
     website_schema = '<script type="application/ld+json">\n' + json.dumps({
         "@context": "https://schema.org", "@type": "WebSite",
