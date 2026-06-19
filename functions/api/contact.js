@@ -58,7 +58,7 @@ Message: ${message || "None"}
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: env.RESEND_FROM || "CA-Appraiser <noreply@brianward.com>",
+        from: env.RESEND_FROM || "CA-Appraiser.com <noreply@date-of-death.com>",
         to: [env.RESEND_TO || "contact@ca-appraiser.com"],
         reply_to: email,
         subject: `New Appraisal Inquiry – ${appraisalPurpose} – ${name}`,
