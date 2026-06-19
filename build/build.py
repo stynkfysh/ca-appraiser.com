@@ -89,6 +89,7 @@ def page(path, title, description, keywords, body, active="",
          schema="", canonical=None, og_type="website", hero=None, h1_in_hero=False):
     """Assemble a full HTML document. `path` is the clean URL (e.g. /contact)."""
     canonical = canonical or (SITE + (path if path != "/" else "/"))
+    og_image = SITE + (hero[0] if hero else "/images/og-default.jpg")
     hero_html = ""
     if hero:
         img, alt, headline, sub, cta = hero
@@ -120,9 +121,11 @@ def page(path, title, description, keywords, body, active="",
     <meta property="og:url" content="{canonical}">
     <meta property="og:site_name" content="CA-Appraiser.com">
     <meta property="og:locale" content="en_US">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="{og_image}">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{html.escape(title, quote=True)}">
     <meta name="twitter:description" content="{html.escape(description, quote=True)}">
+    <meta name="twitter:image" content="{og_image}">
 
     <title>{title}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
