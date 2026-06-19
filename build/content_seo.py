@@ -43,15 +43,30 @@ def build(g):
     for path in LEGAL:
         urls.append((path, "0.3", "yearly"))
 
-    body = "\n".join(
-        f"  <url>\n    <loc>{SITE}{p if p != '/' else '/'}</loc>\n"
-        f"    <lastmod>{ISO}</lastmod>\n    <changefreq>{freq}</changefreq>\n"
-        f"    <priority>{pr}</priority>\n  </url>"
-        for p, pr, freq in urls)
+    import re
+    def og_image_for(p):
+        rel = "index.html" if p == "/" else p.strip("/") + ".html"
+        full = os.path.join(ROOT, rel)
+        try:
+            with open(full, encoding="utf-8") as f:
+                m = re.search(r'<meta property="og:image" content="([^"]+)"', f.read())
+            return m.group(1) if m else None
+        except Exception:
+            return None
+
+    entries = []
+    for p, pr, freq in urls:
+        loc = f"{SITE}{p if p != '/' else '/'}"
+        img = og_image_for(p)
+        img_xml = (f"\n    <image:image><image:loc>{img}</image:loc></image:image>" if img else "")
+        entries.append(
+            f"  <url>\n    <loc>{loc}</loc>\n    <lastmod>{ISO}</lastmod>\n"
+            f"    <changefreq>{freq}</changefreq>\n    <priority>{pr}</priority>{img_xml}\n  </url>")
     w("sitemap.xml",
       '<?xml version="1.0" encoding="UTF-8"?>\n'
-      '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-      + body + "\n</urlset>\n")
+      '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+      'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n'
+      + "\n".join(entries) + "\n</urlset>\n")
 
     # ---------------------------------------------------------------- robots.txt
     w("robots.txt",

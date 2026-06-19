@@ -34,6 +34,21 @@ def build(g):
         "expert witness testimony. In-person appraisals across San Diego and Riverside Counties; desktop "
         "appraisals statewide across California."
     )
+    org_schema = '<script type="application/ld+json">\n' + json.dumps({
+        "@context": "https://schema.org", "@type": "Organization",
+        "@id": SITE + "/#organization", "name": "CA-Appraiser.com",
+        "alternateName": "Brian Ward, Certified Appraiser", "url": SITE,
+        "logo": {"@type": "ImageObject", "url": SITE + "/images/logo.png", "width": 512, "height": 512},
+        "image": SITE + "/images/og-default.jpg", "email": EMAIL,
+        "founder": {"@type": "Person", "name": "Brian Ward"}, "foundingDate": "2004",
+        "areaServed": {"@type": "State", "name": "California"},
+    }, indent=4) + '\n</script>'
+    website_schema = '<script type="application/ld+json">\n' + json.dumps({
+        "@context": "https://schema.org", "@type": "WebSite",
+        "@id": SITE + "/#website", "name": "CA-Appraiser.com", "url": SITE,
+        "publisher": {"@id": SITE + "/#organization"}, "inLanguage": "en-US",
+    }, indent=4) + '\n</script>'
+    home_schema = home_schema + "\n    " + org_schema + "\n    " + website_schema
     home_body = f"""            <div class="stats-bar">
                 <div class="stat-item"><span class="stat-number">22+</span><span class="stat-label">Years Appraising</span></div>
                 <div class="stat-item"><span class="stat-number">7,000+</span><span class="stat-label">Reports Completed</span></div>

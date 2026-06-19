@@ -1,927 +1,1081 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.ca-appraiser.com/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/hero-home.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/services-fees</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/og-default.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/service-area</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/hero-aerial.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/contact</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/hero-contact.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/faq</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/og-default.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/reviews</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/og-default.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/market-reports</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/og-default.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/date-of-death-appraisal</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/hero-estate.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/divorce-appraisal</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/hero-keys.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/bankruptcy-appraisal</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/hero-documents.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/estate-appraisal</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/hero-estate.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/tax-appraisal</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/hero-documents.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/pre-purchase-appraisal</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/hero-keys.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/pre-sale-appraisal</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/hero-home.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/family-transaction-appraisal</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/hero-home.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/insurance-appraisal</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/hero-documents.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/bonds-appraisal</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/hero-documents.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/prop-19-appraisal</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/hero-estate.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/expert-witness</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/hero-documents.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/pmi-removal</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/hero-home.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/aguanga</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/aguanga.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/alpine</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/alpine.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/anaheim</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/anaheim.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/antioch</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/antioch.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/anza</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/anza.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/banning</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/banning.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/beaumont</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/beaumont.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/berkeley</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/berkeley.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/bonita</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/bonita.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/burbank</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/burbank.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/calimesa</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/calimesa.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/canyon-lake</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/canyon-lake.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/cardiff</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/cardiff.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/carlsbad</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/carlsbad.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/carmel-valley</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/carmel-valley.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/cathedral-city</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/cathedral-city.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/chino-hills</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/chino-hills.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/chino</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/chino.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/chula-vista</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/chula-vista.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/clairemont</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/clairemont.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/coachella</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/coachella.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/concord</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/concord.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/corona</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/corona.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/coronado</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/coronado.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/costa-mesa</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/costa-mesa.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/de-luz</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/de-luz.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/del-mar</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/del-mar.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/descanso</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/descanso.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/desert-hot-springs</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/desert-hot-springs.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/downey</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/downey.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/eastvale</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/eastvale.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/el-cajon</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/el-cajon.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/elk-grove</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/elk-grove.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/encinitas</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/encinitas.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/escondido</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/escondido.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/fairfield</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/fairfield.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/fallbrook</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/fallbrook.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/fontana</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/fontana.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/fremont</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/fremont.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/french-valley</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/french-valley.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/fullerton</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/fullerton.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/garden-grove</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/garden-grove.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/glendale</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/glendale.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/hayward</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/hayward.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/hemet</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/hemet.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/hesperia</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/hesperia.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/hillcrest</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/hillcrest.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/hollywood</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/hollywood.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/huntington-beach</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/huntington-beach.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/imperial-beach</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/imperial-beach.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/indian-wells</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/indian-wells.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/indio</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/indio.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/inglewood</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/inglewood.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/jamul</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/jamul.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/jurupa-valley</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/jurupa-valley.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/la-jolla</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/la-jolla.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/la-mesa</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/la-mesa.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/la-quinta</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/la-quinta.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/lake-elsinore</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/lake-elsinore.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/lakeside</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/lakeside.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/lancaster</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/lancaster.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/lemon-grove</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/lemon-grove.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/long-beach</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/long-beach.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/los-angeles</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/los-angeles.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/menifee</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/menifee.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/mira-mesa</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/mira-mesa.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/modesto</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/modesto.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/moreno-valley</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/moreno-valley.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/mountain-view</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/mountain-view.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/murrieta</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/murrieta.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/national-city</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/national-city.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/newport-beach</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/newport-beach.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/norco</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/norco.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/north-park</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/north-park.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/oceanside</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/oceanside.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/ontario</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/ontario.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/orange</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/orange.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/oxnard</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/oxnard.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/pacific-beach</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/pacific-beach.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/palm-desert</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/palm-desert.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/palm-springs</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/palm-springs.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/palmdale</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/palmdale.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/pasadena</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/pasadena.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/perris</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/perris.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/pomona</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/pomona.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/poway</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/poway.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/ramona</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/ramona.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/rainbow</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/rainbow.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/rancho-bernardo</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/rancho-bernardo.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/rancho-cucamonga</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/rancho-cucamonga.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/rancho-mirage</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/rancho-mirage.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/rancho-santa-fe</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/rancho-santa-fe.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/redlands</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/redlands.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/rialto</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/rialto.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/richmond</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/richmond.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/riverside</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/riverside.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/roseville</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/roseville.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/sacramento</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/sacramento.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/salinas</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/salinas.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/san-diego</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/san-diego.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/san-francisco</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/san-francisco.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/san-jacinto</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/san-jacinto.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/san-jose</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/san-jose.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/san-marcos</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/san-marcos.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/san-mateo</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/san-mateo.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/san-ysidro</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/san-ysidro.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/santa-ana</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/santa-ana.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/santa-barbara</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/santa-barbara.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/santa-clara</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/santa-clara.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/santa-clarita</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/santa-clarita.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/santa-monica</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/santa-monica.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/santee</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/santee.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/simi-valley</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/simi-valley.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/solana-beach</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/solana-beach.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/spring-valley</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/spring-valley.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/sun-city</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/sun-city.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/sunnyvale</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/sunnyvale.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/temecula</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/temecula.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/thousand-oaks</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/thousand-oaks.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/thousand-palms</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/thousand-palms.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/torrance</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/torrance.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/university-city</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/university-city.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/upland</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/upland.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/vacaville</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/vacaville.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/vallejo</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/vallejo.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/valley-center</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/valley-center.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/ventura</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/ventura.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/victorville</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/victorville.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/vista</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/vista.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/wildomar</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/wildomar.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/winchester</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/winchester.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/areas/yucaipa</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/areas/yucaipa.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/terms-of-use</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/og-default.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.ca-appraiser.com/privacy-policy</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+    <image:image><image:loc>https://www.ca-appraiser.com/images/og-default.jpg</image:loc></image:image>
   </url>
 </urlset>
