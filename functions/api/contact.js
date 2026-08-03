@@ -19,7 +19,7 @@ const ALLOWED_RETURN_HOSTS = [
 ];
 
 const DEFAULT_SOURCE = "ca-appraiser.com";
-const DEFAULT_FROM = "CA-Appraiser <noreply@brianward.com>";
+const DEFAULT_FROM = "CA-Appraiser <contact@brianward.com>";
 const DEFAULT_TO = "brian@brianward.com";
 
 // ---------------------------------------------------------------------------
