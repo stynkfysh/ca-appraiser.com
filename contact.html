@@ -86,7 +86,7 @@
             <p class="narrow">The fastest way to reach us is the form below. Tell us about the property and what the appraisal is for, and we'll reply with the right report type and a firm quote. There's no cost or obligation for a consultation, and your information is never shared.</p>
 
             <div id="form-success" style="display:none; background:#e7f3ec; border:1px solid #2e7d4f; padding:14px 18px; border-radius:8px; margin-bottom:16px; color:#1f5b39;">
-                <strong>Thank you!</strong> Your request has been sent. We'll get back to you shortly.
+                <strong>Thank you!</strong> Your request has been sent, and we've emailed you a confirmation. We'll get back to you within 24 business hours.
             </div>
             <div id="form-error" style="display:none; background:#fbeae5; border:1px solid #b5532a; padding:14px 18px; border-radius:8px; margin-bottom:16px; color:#8a3c1d;">
                 <strong>Something went wrong.</strong> Please try again, or email us directly at <a href="mailto:contact@ca-appraiser.com">contact@ca-appraiser.com</a>.
@@ -94,6 +94,7 @@
 
             <div class="contact-grid">
                 <form class="contact-form" action="/api/contact" method="POST">
+                    <input type="hidden" name="source" value="ca-appraiser.com">
                     <label for="name">Name <span style="color:#b5532a;">*</span></label>
                     <input type="text" id="name" name="name" required>
 
