@@ -94,6 +94,11 @@
 
             <div class="contact-grid">
                 <form class="contact-form" action="/api/contact" method="POST">
+      <input type="hidden" name="form_token" value="">
+      <div aria-hidden="true" style="position:absolute!important;left:-9999px!important;top:-9999px!important;width:1px;height:1px;overflow:hidden;">
+        <label for="website-url">Website</label>
+        <input type="text" id="website-url" name="website" tabindex="-1" autocomplete="off" value="">
+      </div>
                     <input type="hidden" name="source" value="ca-appraiser.com">
                     <label for="name">Name <span style="color:#b5532a;">*</span></label>
                     <input type="text" id="name" name="name" required>
@@ -246,5 +251,25 @@
         </div>
     </footer>
     <script src="/js/main.js"></script>
+<script>
+// Fetch the signed form token so genuine visitors are distinguishable from
+// bots that POST straight at the endpoint. Failure is non-blocking: the
+// submission still goes through, it is just scored more cautiously.
+(function () {
+  var API = '';
+  function fill(forms, token) {
+    for (var i = 0; i < forms.length; i++) {
+      var f = forms[i].querySelector('input[name="form_token"]');
+      if (f) f.value = token;
+    }
+  }
+  var forms = document.querySelectorAll('form[action*="api/contact"]');
+  if (!forms.length) return;
+  fetch(API + '/api/form-token', { credentials: 'omit' })
+    .then(function (r) { return r.json(); })
+    .then(function (d) { if (d && d.token) fill(forms, d.token); })
+    .catch(function () { /* non-blocking */ });
+})();
+</script>
 </body>
 </html>
