@@ -54,7 +54,7 @@ FOOTER = f"""    <footer class="footer">
                 <p>Certified Residential Real Estate Appraiser</p>
                 <p>Brian Ward, Certified Appraiser</p>
                 <p>A branded site of <a href="https://www.brianward.com">Brian Ward Appraisal</a> — our primary site.</p>
-                <p>15877 Paseo Del Sur<br>San Diego, CA 92127</p>
+                <p>11440 W Bernardo Court, Suite 300<br>San Diego, CA 92127</p>
                 <p>Email: <a href="mailto:{EMAIL}">{EMAIL}</a></p>
                 <p><a href="/contact">Request an appraisal online &rarr;</a></p>
             </div>
@@ -179,7 +179,7 @@ def local_business_schema(extra_desc, area_served=None):
         "description": extra_desc,
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "15877 Paseo Del Sur",
+            "streetAddress": "11440 W Bernardo Court, Suite 300",
             "addressLocality": "San Diego",
             "addressRegion": "CA",
             "postalCode": "92127",

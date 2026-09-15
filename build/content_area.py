@@ -210,7 +210,7 @@ def build(g):
             "@context": "https://schema.org/", "@type": "LocalBusiness",
             "name": "CA-Appraiser.com", "image": SITE + "/images/og-default.jpg",
             "description": f"Real estate appraisal services in {city}, {county} specializing in date-of-death, divorce, estate, bankruptcy, and other non-lender appraisals.",
-            "address": {"@type": "PostalAddress", "streetAddress": "15877 Paseo Del Sur",
+            "address": {"@type": "PostalAddress", "streetAddress": "11440 W Bernardo Court, Suite 300",
                         "addressLocality": "San Diego", "addressRegion": "CA",
                         "postalCode": "92127", "addressCountry": "US"},
             "email": EMAIL, "url": SITE + "/areas/" + slug, "priceRange": "$299 - $725",
