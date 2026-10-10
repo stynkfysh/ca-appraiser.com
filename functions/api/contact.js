@@ -257,6 +257,7 @@ export async function onRequestPost(context) {
   const zipcode = formData.get("zipcode") || "";
   const appraisalPurpose = formData.get("appraisal-purpose") || "";
   const appraisalType = formData.get("appraisal-type") || "";
+  const dateOfDeath = formData.get("date-of-death") || "";
   const message = formData.get("message") || "";
 
   // Honeypots: hidden inputs no human ever sees, let alone fills.
@@ -280,6 +281,13 @@ export async function onRequestPost(context) {
   if (!name || !email || !appraisalPurpose) {
     return Response.redirect(buildReturnUrl(request, "error"), 303);
   }
+
+  // Date of death is required when that is the stated purpose of the appraisal.
+  if (appraisalPurpose === "date-of-death" && !dateOfDeath) {
+    return Response.redirect(buildReturnUrl(request, "error"), 303);
+  }
+
+  const dodLabel = dateOfDeath ? formatDate(dateOfDeath) : "";
 
   const turnstile = await verifyTurnstile(
     formData.get('cf-turnstile-response'),
@@ -321,7 +329,7 @@ Email: ${email}
 Phone: ${phone || "Not provided"}
 Property Address: ${fullAddress || "Not provided"}
 Appraisal Purpose: ${appraisalPurpose}
-Appraisal Type: ${appraisalType || "Not selected"}
+${dodLabel ? `Date of Death: ${dodLabel}\n` : ""}Appraisal Type: ${appraisalType || "Not selected"}
 Message: ${message || "None"}
   `.trim();
 
@@ -345,7 +353,7 @@ ${flagBanner}
   <tr><td style="padding:6px 12px;font-weight:bold;">Phone</td><td style="padding:6px 12px;">${escapeHtml(phone || "Not provided")}</td></tr>
   <tr style="background:#f5f5f5;"><td style="padding:6px 12px;font-weight:bold;">Property Address</td><td style="padding:6px 12px;">${escapeHtml(fullAddress || "Not provided")}</td></tr>
   <tr><td style="padding:6px 12px;font-weight:bold;">Appraisal Purpose</td><td style="padding:6px 12px;">${escapeHtml(appraisalPurpose)}</td></tr>
-  <tr style="background:#f5f5f5;"><td style="padding:6px 12px;font-weight:bold;">Appraisal Type</td><td style="padding:6px 12px;">${escapeHtml(appraisalType || "Not selected")}</td></tr>
+${dodLabel ? `  <tr><td style="padding:6px 12px;font-weight:bold;">Date of Death</td><td style="padding:6px 12px;">${escapeHtml(dodLabel)}</td></tr>\n` : ""}  <tr style="background:#f5f5f5;"><td style="padding:6px 12px;font-weight:bold;">Appraisal Type</td><td style="padding:6px 12px;">${escapeHtml(appraisalType || "Not selected")}</td></tr>
   <tr><td style="padding:6px 12px;font-weight:bold;">Message</td><td style="padding:6px 12px;">${escapeHtml(message || "None")}</td></tr>
 </table>
   `.trim();
@@ -358,7 +366,7 @@ ${flagBanner}
       from: fromAddress,
       to: [env.RESEND_TO || DEFAULT_TO],
       reply_to: email,
-      subject: `${flagged ? "[POSSIBLE SPAM] " : ""}[${source}] New Appraisal Inquiry – ${appraisalPurpose} – ${name}`,
+      subject: `${flagged ? "[POSSIBLE SPAM] " : ""}[${source}] New Appraisal Inquiry – ${appraisalPurpose}${dodLabel ? ` (${dodLabel})` : ""} – ${name}`,
       text: emailBody,
       html: htmlBody,
     });
@@ -380,9 +388,11 @@ ${flagBanner}
         subject: `We received your appraisal inquiry — ${source}`,
         text: buildAutoReplyText({
           name, email, phone, fullAddress, appraisalPurpose, appraisalType, message, source,
+          dodLabel,
         }),
         html: buildAutoReplyHtml({
           name, email, phone, fullAddress, appraisalPurpose, appraisalType, message, source,
+          dodLabel,
         }),
       });
     } catch (err) {
@@ -424,7 +434,7 @@ Name: ${d.name}
 Email: ${d.email}
 Phone: ${d.phone || "Not provided"}
 Property Address: ${d.fullAddress || "Not provided"}
-Appraisal Purpose: ${d.appraisalPurpose}
+Appraisal Purpose: ${d.appraisalPurpose}${d.dodLabel ? `\nDate of Death: ${d.dodLabel}` : ""}
 Appraisal Type: ${d.appraisalType || "Not selected"}
 Message: ${d.message || "None"}
 
@@ -463,6 +473,7 @@ function buildAutoReplyHtml(d) {
     ${row("Phone", d.phone)}
     ${row("Property Address", d.fullAddress)}
     ${row("Appraisal Purpose", d.appraisalPurpose)}
+    ${row("Date of Death", d.dodLabel)}
     ${row("Appraisal Type", d.appraisalType)}
     ${row("Message", d.message)}
   </table>
@@ -478,6 +489,17 @@ function buildAutoReplyHtml(d) {
   </p>
 </body>
 </html>`;
+}
+
+// "2026-03-14" -> "March 14, 2026"; returns the raw value if unparseable.
+function formatDate(value) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(value).trim());
+  if (!m) return String(value);
+  const months = ["January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"];
+  const month = months[Number(m[2]) - 1];
+  if (!month) return String(value);
+  return `${month} ${Number(m[3])}, ${m[1]}`;
 }
 
 function escapeHtml(str) {

@@ -292,6 +292,12 @@ def build(g):
 {purpose_opts}
                     </select>
 
+                    <div id="dod-field" style="display:none;">
+                        <label for="date-of-death">Date of Death <span style="color:#b5532a;">*</span></label>
+                        <input type="date" id="date-of-death" name="date-of-death">
+                        <p style="font-size:13px; color:#76817a; margin:6px 0 0;">Value will be estimated as of this date. If the exact date isn't known, enter your best estimate and tell us below.</p>
+                    </div>
+
                     <label for="appraisal-type">Appraisal Type</label>
                     <select id="appraisal-type" name="appraisal-type">
 {type_opts}
@@ -326,6 +332,23 @@ def build(g):
                     document.getElementById('form-error').style.display = 'block';
                     document.getElementById('form-error').scrollIntoView({{ behavior: 'smooth' }});
                 }}
+            }})();
+            </script>
+            <script>
+            (function() {{
+                var purpose = document.getElementById('appraisal-purpose');
+                var wrap = document.getElementById('dod-field');
+                var dod = document.getElementById('date-of-death');
+                if (!purpose || !wrap || !dod) return;
+                dod.max = new Date().toISOString().slice(0, 10);
+                function toggleDod() {{
+                    var on = purpose.value === 'date-of-death';
+                    wrap.style.display = on ? 'block' : 'none';
+                    dod.required = on;
+                    if (!on) dod.value = '';
+                }}
+                purpose.addEventListener('change', toggleDod);
+                toggleDod();
             }})();
             </script>
             <script>
